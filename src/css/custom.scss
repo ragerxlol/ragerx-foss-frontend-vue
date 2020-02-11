@@ -1,0 +1,44 @@
+// Layout Styles
+
+// Make active navbar item bold
+.navbar-nav {
+    .nav-link {
+        &.active:focus,
+        &.active:hover,
+        &.active {
+            font-weight: bold;
+        }
+    }
+}
+
+// Make infoboxes full height within the row
+.row > div > .card {
+    height: 100%;
+}
+
+// Make card size a bit smaller
+.card {
+    .card-title {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .card-footer {
+        padding: 0;
+    }
+}
+
+// Align tables in tooltip
+.tooltip {
+    table {
+        td {
+            padding: 0 4px;
+
+            &:first-child {
+                text-align: left;
+            }
+            &:last-child {
+                text-align: right;
+            }
+        }
+    }
+}

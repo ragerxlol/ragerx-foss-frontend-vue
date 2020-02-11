@@ -1,0 +1,103 @@
+// Override some bootstrap variables
+// see node_modules/bootstrap/scss/_variables.scss for a full list of options
+
+// Customization instructions
+// Mostly, you can just edit the below options to change general styling
+
+$body-color:    #ffffff;
+$border-color:  #505050;
+$body-bg:       #3a3a3a;
+$body-bg-2:     #424242;
+$body-bg-3:     #505050;
+$body-bg-4:     #606060;
+
+$primary:       #546e7a;
+$secondary:     #7e57c2;
+$success:       #8bc34a;
+$info:          #2196f3;
+$warning:       #ffc107;
+$danger:        #dd2c00;
+
+:root {
+    --chart-primary:   #546e7a;
+    --chart-secondary: #7e57c2;
+    --chart-label:     #ffffff;
+    --chart-grid:      #505050;
+    --chart-tooltip:   #000000;
+}
+
+// Extended coloring
+// The below values are set from the above variables,
+// but you can change them to have more control if needed
+
+$link-color:                        $primary;
+$link-hover-color:                  lighten($link-color, 15%);
+
+$navbar-dark-hover-color:           $body-color;
+$navbar-dark-active-color:          $body-color;
+
+$card-bg:                           $body-bg-2;
+$card-border-color:                 $border-color;
+
+$pagination-color:                  $body-color;
+$pagination-bg:                     $body-bg-3;
+$pagination-border-color:           $border-color;
+
+$pagination-hover-color:            $body-color;
+$pagination-hover-bg:               $body-bg-4;
+$pagination-hover-border-color:     $border-color;
+
+$pagination-disabled-color:         $body-color;
+$pagination-disabled-bg:            $body-bg-3;
+$pagination-disabled-border-color:  $border-color;
+
+$input-bg:                          $body-bg-3;
+$input-color:                       $body-color;
+$input-border-color:                $border-color;
+$input-group-addon-bg:              $body-bg-3;
+
+$custom-select-disabled-bg:         $body-bg-3;
+$custom-select-indicator-color:     $body-color;
+$custom-range-track-bg:             $body-bg-3;
+
+$dropdown-bg:                       $body-bg-2;
+$dropdown-link-color:               $body-color;
+$dropdown-link-hover-color:         $body-color;
+$dropdown-link-hover-bg:            $body-bg-3;
+$dropdown-border-color:             $border-color;
+
+$progress-bg:                       $body-bg-3;
+
+$modal-content-bg:                  $body-bg-2;
+$modal-content-border-color:        $border-color;
+$close-color:                       $body-color;
+
+$pre-color:                         $body-color;
+
+// Structural changes
+
+$font-size-base:    0.9rem;
+$grid-gutter-width: 16px;
+$tooltip-max-width: 320px;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1300px,
+  xxxl: 1400px,
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1300px,
+  xxxl: 1400px,
+);
+
+// Importing Bootstrap
+@import "~bootstrap/scss/bootstrap";

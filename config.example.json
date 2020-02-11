@@ -1,0 +1,13 @@
+{
+  "general": {
+    "pool_name": "My Pool"
+  },
+  "api": {
+    "url": "https://yourpool.com/api",
+    "polling_interval": 30
+  },
+  "links": [
+    { "title": "Telegram", "href": "https://t.me/mypool" },
+    { "title": "Reddit", "href": "https://reddit.com/r/mypool" }
+  ]
+}
