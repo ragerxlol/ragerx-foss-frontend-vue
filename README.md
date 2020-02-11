@@ -3,6 +3,7 @@
 Open source (BSD-3) frontend for RagerX compatible pools built with Vue.js and Bootstrap. Please refer to the [Pool Install Instructions](https://github.com/ragerxlol/ragerx-foss-install-instructions) for full details on how to start a RagerX pool.
 
 ![RagerX FOSS Frontend](src/assets/Screenshot.png?raw=true "RagerX FOSS Frontend")
+![RagerX FOSS Frontend](src/assets/Screenshot-2.png?raw=true "RagerX FOSS Frontend")
 
 ## Configuring the Frontend
 
