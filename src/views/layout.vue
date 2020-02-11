@@ -47,7 +47,7 @@
 
   <footer class="mt-4">
     <b-container fluid="xl">
-      {{ $config.general.pool_name }} powered by <a href="https://github.com/ragerxlol/pool-frontend-foss" target="_blank">RagerX F/OSS Pool Frontend</a>. Released under the BSD-3 License.
+      {{ $config.general.pool_name }} powered by <a href="https://github.com/ragerxlol/ragerx-foss-frontend-vue" target="_blank">RagerX F/OSS Pool Frontend</a>. Released under the BSD-3 License.
     </b-container>
   </footer>
 
