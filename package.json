@@ -9,7 +9,7 @@
   "dependencies": {
     "axios": "^0.19.1",
     "bootstrap-vue": "^2.1.0",
-    "chart.js": "^2.9.3",
+    "chart.js": "^2.9.4",
     "core-js": "^3.4.4",
     "cryptonote-address-validator": "https://github.com/ragerxlol/cryptonote-address-validator-js",
     "date-fns": "^2.9.0",
